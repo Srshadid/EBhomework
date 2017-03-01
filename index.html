@@ -3,14 +3,11 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <title>Said by steps</title>
-  <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search resu...">
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- add jquery "puedes googlear how to include jquery on my html" -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/">
-  <link rel="alternate" type="application/rss+xml" title="Your awesome title" href="/feed.xml">
+  <link rel="stylesheet" href="/assets/main.scss">
 </head>
   <body>
     <nav class="navbar navbar-default">
@@ -35,19 +32,20 @@
         </picture>
         <h1>Professional digital design for mac</h1>
         <p>Sketch gives you the power, flexibility and speed you always wanted in a lightweight and easy-to-use package. Finally you can focu on what you do best: Design.</p>
-        <ul>
-          <li class="btn"><a href="#">See How it Works</a></li>
-          <li class="btn"><a href="#">Explore the features</a></li>
+        <ul class="list-inline">
+          <li><a href="#" class="btn btn-link">See How it Works</a></li>
+          <li><a href="#" class="btn btn-link">Explore the features</a></li>
         </ul>
-        <ul>
-          <li class="btn"><a href="#">Download Free Trial</a></li>
-          <li class="btn"><a href="#">Buy Now for $99</a></li>
+        <ul class="list-inline">
+          <li><a href="#" class="btn btn-primary">Download Free Trial</a></li>
+          <li><a href="#" class="btn btn-primary">Buy Now for $99</a></li>
         </ul>
         <p>Requires Mac OS X 10.10+. Special prices for <strong>Education</strong> and <strong>Extending your</strong> License are available.</p>
       </div>
     </div>
-    <div class="container">
-      <div class="feature-section">
+
+    <div class="feature-section section section-dark">
+      <div class="container">
         <div class="row">
           <div class="col-md-6">
             <h2>Work better, faster</h2>
@@ -65,6 +63,7 @@
         </div>
       </div>
     </div>
+
     <div class="container">
       <div class="testimonial-section">
         <div class="row">
@@ -94,68 +93,63 @@
         </div>
       </div>
     </div>
+
     <div class="container">
-      <div class="companies-section">
+      <div class="companies-section text-center">
         <div class="row">
           <h6>HERE’S A HANDFUL OF COMPANIES THAT ARE ALREADY USING SKETCH</h6>
-        </div>
-        <div class="row">
-          <div class="col-md-1">
+          <div class="col-md-2 col-xs-6">
             <img src="assets/logos/logo-apple.svg" alt="apple">
           </div>
-          <div class="col-md-1">
+          <div class="col-md-2 col-xs-6">
             <img src="assets/logos/logo-facebook.svg" alt="facebook">
           </div>
-          <div class="col-md-1">
+          <div class="col-md-2 col-xs-6">
             <img src="assets/logos/logo-stripe.svg" alt="stripe">
           </div>
-          <div class="col-md-1">
+          <div class="col-md-2 col-xs-6">
             <img src="assets/logos/logo-google.svg" alt="google">
           </div>
-          <div class="col-md-1">
+          <div class="col-md-2 col-xs-6">
             <img src="assets/logos/logo-dropbox.svg" alt="dropbox">
           </div>
-          <div class="col-md-1">
+          <div class="col-md-2 col-xs-6">
             <img src="assets/logos/logo-sega.svg" alt="sega">
           </div>
-          <div class="col-md-1">
+          <div class="col-md-2 col-xs-6">
             <img src="assets/logos/logo-etsy.svg" alt="etsy">
           </div>
-          <div class="col-md-1">
+          <div class="col-md-2 col-xs-6">
             <img src="assets/logos/logo-foursquare.svg" alt="foursquare">
           </div>
-          <div class="col-md-1">
+          <div class="col-md-2 col-xs-6">
             <img src="assets/logos/logo-soundcloud.svg" alt="soundcloud">
           </div>
-        </div>
-        <div class="row">
-          <div class="col-md-1">
+          <div class="col-md-2 col-xs-6">
             <img src="assets/logos/logo-fitbit.svg" alt="fitbit">
           </div>
-          <div class="col-md-1">
+          <div class="col-md-2 col-xs-6">
             <img src="assets/logos/logo-groupon.svg" alt="grupon">
           </div>
-          <div class="col-md-1">
+          <div class="col-md-2 col-xs-6">
             <img src="assets/logos/logo-autodesk.svg" alt="autodesk">
           </div>
-          <div class="col-md-1">
+          <div class="col-md-2 col-xs-6">
             <img src="assets/logos/logo-booking.svg" alt="booking">
           </div>
-          <div class="col-md-1">
+          <div class="col-md-2 col-xs-6">
             <img src="assets/logos/logo-buzzfeed.svg" alt="buzzfeed">
           </div>
-          <div class="col-md-1">
+          <div class="col-md-2 col-xs-6">
             <img src=assets/logos/"logo-paypal.svg" alt="paypal">
           </div>
-          <div class="col-md-1">
+          <div class="col-md-2 col-xs-6">
             <img src="assets/logos/logo-nbc.svg" alt="nbc">
           </div>
-        </div>
-        <div class="row">
-          <div class="col-md-1">
+          <div class="col-md-2 col-xs-6">
             <img src="assets/logos/logo-ibm.svg" alt="ibm">
           </div>
-          <div class="col-md-1">
+          <div class="col-md-2 col-xs-6">
             <img src="assets/logos/logo-twitch.svg" alt="twitch">
           </div>
         </div>
@@ -179,8 +173,9 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="awwards-section">
+
+    <div class="awwards-section">
+      <div class="container">
         <div class="row">
           <div class="col-md-1">
             <img src="assets/awards/award-ada@2x.png" alt="apple-awward" height="52px">
@@ -208,12 +203,13 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="getting-started">
+
+    <div class="getting-started">
+      <div class="container">
         <div class="media">
           <div class="media-left">
             <a href="#">
-              <img src="assets/app-icon@2x.png" alt="sketch-logo">
+              <img src="assets/app-icon@2x.png" alt="sketch-logo" width="96px">
             </a>
           </div>
           <div class="media-body">
@@ -225,21 +221,29 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="footer">
-        <small>© 2017 Bohemian BV</small>
-        <ul role="navigation">
-          <li><a href="/updates/">Updates</a></li>
-          <li><a href="/about-us/">About Us</a></li>
-          <li><a href="/jobs/">Jobs</a></li>
-          <li><a href="/press/">Press</a></li>
-          <li><a href="https://blog.sketchapp.com/">Blog</a></li>
-          <li><a href="https://twitter.com/sketchapp">Twitter</a></li>
-          <li><a href="https://www.facebook.com/Sketchapp">Facebook</a></li>
-          <li><a href="http://developer.sketchapp.com">Developer</a></li>
-        </ul>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-2">
+            © 2017 Bohemian BV
+          </div>
+          <div class="col-sm-10 text-right">
+            <ul class="list-inline">
+              <li><a href="/updates/">Updates</a></li>
+              <li><a href="/about-us/">About Us</a></li>
+              <li><a href="/jobs/">Jobs</a></li>
+              <li><a href="/press/">Press</a></li>
+              <li><a href="https://blog.sketchapp.com/">Blog</a></li>
+              <li><a href="https://twitter.com/sketchapp">Twitter</a></li>
+              <li><a href="https://www.facebook.com/Sketchapp">Facebook</a></li>
+              <li><a href="http://developer.sketchapp.com">Developer</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
-    </div>
+    </footer>
+
   </body>
 </html>
 
