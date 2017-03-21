@@ -1,10 +1,94 @@
 body {
+  color: #666;
+}
 
+.display-1, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, th, .card-title {
+  color: #000;
+}
+
+.navbar {
+	border-radius: 0px;
+	margin-bottom: 0px;
+	border: 0;
+	border-bottom-width: 1px;
+	border-style: solid;
+	border-image: linear-gradient(90deg, rgba(255,255,255,0), rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 100%) 5%;
+}
+
+.wrapper {
+	max-width: 70rem;
+	margin: 0 auto;
+}
+
+.dark-background {
+	background-color: #130a33;
+	color: rgba(255,255,255,0.6);
+}
+
+.navbar-sketch {
+	border-color: rgba(255,255,255,0.6);
+	justify-content: space-between;
+	display: flex;
+	background-color: #130a33;
+	color: rgba(255,255,255,0.6);
 }
 
 .hero {
-	background: red;
+  margin: 3.5rem 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 	img {
 		display: none;
 	}
+}
+.hero-header {
+  margin: 2rem;
+  color: #fff;
+}
+
+.paragraph {
+  color: rgba(255,255,255,0.85);
+}
+.button {
+  display: inline-block;
+  position: relative;
+  padding: .5em 1.25em .625em;
+  background: rgba(98,54,255,0.05);
+  color: #6236ff;
+  border: 1px solid rgba(98,54,255,0.5);
+  border-radius: .125rem;
+  box-shadow: 0 1px 1px 0 rgba(19,10,51,0.05);
+}
+.light-btn {
+  border-color: #f7b500;
+  background-color: #f7b500;
+  color: #130a33;
+}
+.dark-btn {
+  color: #f7b500;
+  border-color: rgba(247,181,0,0.5);
+  background-color: rgba(247,181,0,0.05);
+  box-shadow: 0 1px 1px 0 rgba(49,36,0,0.2);
+}
+
+.feature-section {
+  background-color: #fff;
+  margin: 3.5rem 0;
+}
+.testimonials {
+  margin-top: 5rem;
+}
+.testimonial-footer {
+  margin-top: 1rem;
+}
+.testimonial-img {
+  vertical-align: middle;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 10rem;
+}
+
+.blockquote {
+  border: none;
 }
