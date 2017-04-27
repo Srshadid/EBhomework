@@ -46,19 +46,19 @@ body {
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus  {
-  color: #F7B500;
+  color: rgba(249,181,0,0.91);
   background-color: transparent;
 }
 .navbar-default .navbar-nav>.active>a:hover {
-  color: #fdac32;
+  color: #F7B500;
   background-color: transparent;
 }
 .navbar-default .navbar-nav>li>a {
-  color: #fff;
+  color: rgba(255,255,255,0.85);
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-  color: rgba(255,255,255,0.45);
+  color: rgba(255,255,255,0.65);
   background-color: transparent;
 }
 
@@ -67,9 +67,11 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-	img {
-		display: none;
-	}
+}
+
+.hero p a, .hero>p>a:hover {
+  color: rgba(255,255,255,0.6);
+  text-decoration: none;
 }
 
 .hero-header {
