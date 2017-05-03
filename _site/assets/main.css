@@ -140,27 +140,11 @@ body {
 .distribute {
   justify-content: space-around;
 }
-.two-cols {
-  position: relative;
-}
 .two-cols .col-md-5 h2 {
   font-size: 24px;
 }
 .two-cols .col-md-5 strong {
   color: #6236FF;
-}
-.two-cols::before {
-  content: "+";
-  position: absolute;
-  top: 50%;
-  left: 49%;
-  transform: translateX(-50%) translateY(-50%);
-  background: #fff;
-  color: #bac6d5;
-  font-size: 3rem;
-  font-weight: 200;
-  z-index: 1;
-  -webkit-font-smoothing: none;
 }
 .testimonial-section {
   padding: 1rem 0;
@@ -186,9 +170,6 @@ body {
 .companies-section h6 {
   color: #959596;
   padding: 10 0 20px;
-}
-.companies-section .row {
-  padding-bottom: 4rem;
 }
 .companies-section .col-md-2 {
   padding: 1rem 0 1rem;
@@ -230,7 +211,6 @@ body {
 
 .subscription .input-group-addon {
   background-color: #F5F3FF;
-  border-bottom: 1px solid #ac95ff;
   color: #6236FF;
   padding: 16px 32px;
 }
@@ -242,9 +222,7 @@ body {
 .awwards-section {
   padding: 4rem 0;
 }
-.awwards-section .col-sm-2,.awwards-section .text-center {
-  padding: 4rem 0 1rem;
-}
+
 .getting-started {
   padding: 4rem 0 4rem;
 }
@@ -308,3 +286,21 @@ body {
   color: #6236FF;
   text-decoration: none;
 }
+
+@media only screen and (max-width: 500px) {
+
+  .companies-section .col-md-2 {
+    padding: 1rem 0 3rem;
+  }
+
+  .getting-started p {
+    padding-bottom: 1rem;
+  }
+  .dark-btn, .light-btn {
+    margin-bottom: 1rem;
+  }
+  .buy-btn {
+    margin-top: 1rem;
+  }
+}
+
