@@ -146,6 +146,22 @@ body {
 .two-cols .col-md-5 strong {
   color: #6236FF;
 }
+.two-cols {
+  position: relative;
+ }
+.two-cols::before {
+  content: "+";
+  position: absolute;
+  top: 50%;
+  left: 49%;
+  transform: translateX(-50%) translateY(-50%);
+  background: #fff;
+  color: #bac6d5;
+  font-size: 3rem;
+  font-weight: 200;
+  z-index: 1;
+  -webkit-font-smoothing: none;
+ }
 .testimonial-section {
   padding: 1rem 0;
 }
@@ -288,6 +304,14 @@ body {
 }
 
 @media only screen and (max-width: 500px) {
+
+.two-cols {
+  position: relative;
+ }
+
+.two-cols::before {
+  display: none;
+ }
 
   .companies-section .col-md-2 {
     padding: 1rem 0 3rem;
