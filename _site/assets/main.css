@@ -6,6 +6,13 @@ body {
   color: #000;
 }
 
+.padding-left {
+  padding-left: 10px;
+}
+.padding-top {
+  padding-top: 4rem;
+}
+
 .active {
   color: #F7B500;
 }
@@ -18,12 +25,14 @@ body {
 	border-style: solid;
 	border-image: linear-gradient(90deg, rgba(255,255,255,0), rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 100%) 5%;
 }
-
-.wrapper {
-  max-width: 85rem;
-  margin: 0 auto;
+.navbar-default .navbar-toggle {
+  color: #fff;
+  border-color: transparent;
 }
-
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+background-color: transparent;
+color: rgba(255,255,255,0.6);
+}
 .dark-background {
   background-color: #130a33;
   color: rgba(255,255,255,0.6);
@@ -31,7 +40,6 @@ body {
 .color-background {
   background-color: #F8F7FC;
 }
-
 .navbar-sketch {
   padding: 10px 0 10px;
   border-color: rgba(255,255,255,0.6);
@@ -174,9 +182,6 @@ body {
 .testimonial-footer {
   margin-top: 1rem;
 }
-.padding-left {
-  padding-left: 10px;
-}
 .testimonial-img {
   vertical-align: middle;
   width: 2rem;
@@ -270,8 +275,9 @@ body {
 .free-trial-btn:hover, .free-trial-btn:active, .free-trial-btn:focus, .free-trial-btn:hover:active {
   color: #fff;
   padding: 16px 32px;
-  background-color: rgba(98,54,255,0.85);
+  background-color: rgba(98,54,255,0.95);
   border: 1px solid #AC95FF;
+  text-decoration: none!important;
 }
 
 .buy-btn {
@@ -279,6 +285,7 @@ body {
   padding: 16px 32px;
   background-color: #F5F3FF;
   border: 1px solid #AC95FF;
+  text-decoration: none;
 }
 
 .buy-btn:hover, .buy-btn:active, .buy-btn:focus, .buy-btn:hover:active {
@@ -286,6 +293,7 @@ body {
   padding: 16px 32px;
   background-color: rgba(245,243,255,0.5);
   border: 1px solid #AC95FF;
+  text-decoration: none;
 }
 
 .home-footer {
@@ -302,21 +310,28 @@ body {
   color: #6236FF;
   text-decoration: none;
 }
+.col-md-6 .text-center a, a:hover, a:active, a:focus {
+  text-decoration: none;
+}
+
 
 @media only screen and (max-width: 500px) {
 
-.two-cols {
-  position: relative;
- }
-
-.two-cols::before {
-  display: none;
- }
-
+  .padding-top {
+    padding-top: 1rem;
+  }
+  .navbar-sketch {
+    display: block;
+  }
+  .two-cols {
+    position: relative;
+   }
+  .two-cols::before {
+    display: none;
+   }
   .companies-section .col-md-2 {
     padding: 1rem 0 3rem;
   }
-
   .getting-started p {
     padding-bottom: 1rem;
   }
