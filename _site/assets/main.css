@@ -6,6 +6,7 @@ body {
   color: #000;
 }
 
+
 .padding-left {
   padding-left: 10px;
 }
@@ -16,7 +17,12 @@ body {
 .active {
   color: #F7B500;
 }
-
+.margin-bottom {
+  margin-bottom: 2rem;
+}
+.margin-top {
+  margin-top: 2rem;
+}
 .navbar {
 	border-radius: 0px;
 	margin-bottom: 0px;
@@ -71,7 +77,7 @@ color: rgba(255,255,255,0.6);
 }
 
 .hero {
-  margin: 3.5rem 0 4.5rem;
+  margin: 5rem 0 4.5rem;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -83,8 +89,13 @@ color: rgba(255,255,255,0.6);
 }
 
 .hero-header {
-  margin: 2rem;
+  margin: 2rem 0;
   color: #fff;
+  font-size: 52px;
+}
+
+.hero-copy {
+  font-size: 20px;
 }
 
 .paragraph {
@@ -173,6 +184,9 @@ color: rgba(255,255,255,0.6);
 .testimonial-section {
   padding: 1rem 0;
 }
+.testimonial-section h1 {
+  font-size: 44px;
+}
 .testimonials {
   margin-top: 5rem;
 }
@@ -187,6 +201,9 @@ color: rgba(255,255,255,0.6);
   width: 2rem;
   height: 2rem;
   border-radius: 10rem;
+}
+.companies-section {
+  margin: 5rem 0;
 }
 .companies-section h6 {
   color: #959596;
@@ -213,7 +230,7 @@ color: rgba(255,255,255,0.6);
 }
 
 .subscription {
-  padding: 1rem 0 4rem;
+  padding: 5rem 0 5rem;
 }
 
 .subscription a {
@@ -245,7 +262,7 @@ color: rgba(255,255,255,0.6);
 }
 
 .getting-started {
-  padding: 4rem 0 4rem;
+  padding: 5rem 0 5rem;
 }
 .getting-started img {
   padding: 1rem;
@@ -341,5 +358,6 @@ color: rgba(255,255,255,0.6);
   .buy-btn {
     margin-top: 1rem;
   }
+
 }
 
