@@ -36,8 +36,8 @@ body {
   border-color: transparent;
 }
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-background-color: transparent;
-color: rgba(255,255,255,0.6);
+  background-color: transparent;
+  color: rgba(255,255,255,0.6);
 }
 .dark-background {
   background-color: #130a33;
@@ -141,7 +141,7 @@ color: rgba(255,255,255,0.6);
 .hero-link {
   color: #fff;
 }
-.hero-link:hover {
+.hero-link:hover, .hero-link:focus {
   color: rgba(255,255,255,0.5);
   text-decoration: none;
 }
